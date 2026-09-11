@@ -10,7 +10,7 @@ main{
 header{
     width: 100%;
     height: 20vh;
-    background: #000;
+    background: #0b0a10;
 }
 section{
     width: 100%;
@@ -19,36 +19,61 @@ section{
     padding: 1%;
 }
 #cs2{
-    background: #D97A15;
+    background: #1f1730;
 }
 #valorant{
-    background: #F74352;
+    background: #2d1b4e;
 }
 .skins{
     width: 18%;
     height: 30vh;
-    background: #fff;
+    background: #2a2a35;
     margin-left: 1.6%;
     margin-top: 0.5vh;
     float: left;
-    border-radius: 12px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
 }
 footer{
     width: 100%;
     height: 10vh;
-    background: #42d0ff;
+    background: #0b0a10;
     float: left;
 }
 .skins img{
-    width: 100%;
-    height: 75%;
-    object-fit: cover;
-    border-radius: 12px 12px 0 0;
+    width: 90%;
+    height: 65%;
+    object-fit: contain;
+    margin-top: 5%;
 }
 .skins h3{
     font-family: Arial, sans-serif;
     font-size: 0.85rem;
     text-align: center;
     margin-top: 5px;
-    color: #333;
+    color: #e5e5e5;
+}
+section h2{
+    width: 100%;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #c9a8ff;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 80%;
+    object-fit: contain;
+    opacity: 0.6;
 }
